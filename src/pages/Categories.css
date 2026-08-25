@@ -1,0 +1,139 @@
+.categories {
+	padding: 40px 60px;
+	/* border: 2px solid red ; */
+	margin-bottom: 40px;
+}
+
+.titleCnt {
+	text-align: center;
+	margin-top: 90px;
+	color: #e6a13a;
+	font-family: "Playfair Display SC", serif;
+	font-size: clamp(18px, 4vw, 20px);
+	font-weight: 500;
+	line-height: 1.2;
+	letter-spacing: 0.5px;
+
+	text-shadow:
+		0 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.subTitle {
+	color: #ffffff;
+	margin-top: 8px;
+	font-family: "Lora", serif;
+
+	font-size: 16px;
+
+	font-weight: 200;
+
+
+	white-space: nowrap;
+
+}
+
+
+.categoriesSection {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	gap: 30px;
+}
+
+.category-card {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	height: 450px;
+	margin-top: 30px;
+	padding: 18px;
+	overflow: hidden;
+	/* border: 1px solid rgb(195, 167, 167); */
+
+
+	transition: transform .35s ease,
+		box-shadow .35s ease;
+
+	box-shadow: rgba(90, 90, 90, 0.24) 0px 3px 8px;
+
+	
+}
+
+
+.category-image {
+	width: 100%;
+	height: 200px;
+	object-fit: contain;
+}
+
+.category-content {
+	/* border: 2px solid red; */
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	height: 140px;
+	text-overflow: ellipsis;
+}
+
+.category-content h3 {
+	margin: 0;
+	font-size: 25px;
+	font-weight: 400;
+	color: white;
+	z-index: 2;
+	font-family: "Playfair Display SC", serif;
+
+}
+
+.discription {
+	color: #666;
+	width: 100%;
+	font-size: .90rem;
+	line-height: 1.7;
+	overflow: hidden;
+	font-family: "Lora", serif;
+	text-overflow: ellipsis;
+}
+
+.category-btn {
+
+	padding: 12px 22px;
+	border: none;
+	border-radius: 10px;
+	background: linear-gradient(135deg,
+			#d88922,
+			#b96812);
+
+	color: white;
+	font-family: "Lora", serif;
+
+	font-size: 11px;
+
+	font-weight: 600;
+
+	letter-spacing: 1.5px;
+
+	cursor: pointer;
+
+	box-shadow:
+		0 6px 20px rgba(216, 137, 34, 0.18);
+
+	transition:
+		transform 0.3s ease,
+		box-shadow 0.3s ease,
+		background 0.3s ease;
+}
+
+.category-btn:hover {
+	transform: translateY(-3px);
+
+	background: linear-gradient(135deg,
+			#e9a13a,
+			#d88922);
+
+	box-shadow:
+		0 10px 30px rgba(216, 137, 34, 0.3);
+}
+
+.category-btn:active {
+	transform: translateY(-1px) scale(0.98);
+}

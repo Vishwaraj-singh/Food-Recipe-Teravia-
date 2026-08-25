@@ -1,0 +1,17 @@
+[
+	{
+		"icon": "FaRegCompass",
+		"title": "Discovery First",
+		"discription": "We don't just show you recipes; we help you discover your next culinary obsession through curated visual boards."
+	},
+	{
+		"icon": "RiSparkling2Line",
+		"title": "Simplicity",
+		"discription": "Minimalism is our mantra. We strip away the fluff so you can focus on the ingredients and the process."
+	},
+	{
+		"icon": "FaHandHoldingHeart",
+		"title": "Built for Home Cooks",
+		"discription": "From beginners to seasoned chefs, our platform is designed to be accessible, encouraging, and easy to use."
+	}
+]

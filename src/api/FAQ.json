@@ -1,0 +1,32 @@
+[
+	{
+	  "id": 1,
+	  "question": "What is Teravia?",
+	  "answer": "Teravia is a recipe discovery platform that helps you explore delicious recipes from different cuisines and find inspiration for what to cook."
+	},
+	{
+	  "id": 2,
+	  "question": "How can I find a recipe on Teravia?",
+	  "answer": "You can search for a recipe using the search bar or browse recipes by categories such as Breakfast, Chicken, Pasta, Dessert, Vegetarian, and more."
+	},
+	{
+	  "id": 3,
+	  "question": "Where does Teravia get its recipes?",
+	  "answer": "Teravia uses TheMealDB API to provide recipe information such as images, ingredients, categories, cuisines, and cooking instructions."
+	},
+	{
+	  "id": 4,
+	  "question": "Can I explore recipes from different cuisines?",
+	  "answer": "Yes. Teravia lets you discover recipes from different cuisines and food cultures around the world, making it easy to try something new."
+	},
+	{
+	  "id": 5,
+	  "question": "Is Teravia free to use?",
+	  "answer": "Yes. Teravia is a free recipe discovery platform where you can search, browse, and explore recipes without a subscription."
+	},
+	{
+	  "id": 6,
+	  "question": "Do I need an account to use Teravia?",
+	  "answer": "No. You can search and explore recipes without creating an account. You can simply discover a recipe, view its details, and start cooking."
+	}
+  ]

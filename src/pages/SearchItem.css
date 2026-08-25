@@ -1,0 +1,46 @@
+.searchSection {
+	width: min(1200px, 90%);
+	min-height: calc(100vh - 100px);
+	margin: 0 auto;
+	padding: 70px 0 100px;
+
+	color: #fff;
+
+}
+
+.search-results {
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+	display: grid;
+
+	grid-template-columns: repeat(3,
+			minmax(0, 300px));
+
+	gap: 35px;
+
+	justify-content: center;
+
+}
+
+.search-Text {
+	margin: 35px 0 40px;
+
+	text-align: center;
+
+	color: #f5f5f5;
+
+	font-family: "Playfair Display SC", serif;
+
+	font-size: clamp(25px, 4vw, 42px);
+
+	font-weight: 400;
+
+	line-height: 1.2;
+
+	text-transform: capitalize;
+}

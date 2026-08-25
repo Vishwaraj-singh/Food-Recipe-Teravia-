@@ -1,0 +1,140 @@
+footer {
+	min-height: 200px;
+	padding: 30px 40px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+	background: rgba(0, 0, 0, 0.9);
+	backdrop-filter: blur(12px);
+	/* box-shadow: rgba(110, 110, 120, 0.2) 0px 7px 29px 0px; */
+	box-shadow:
+	0 0 20px rgba(255, 0, 0, 0.35),
+	0 0 40px rgba(255, 80, 0, 0.30),
+	0 0 65px rgba(255, 190, 0, 0.20),
+	0 0 90px rgba(0, 80, 255, 0.15),
+	0 20px 50px rgba(0, 0, 0, 0.8);
+
+}
+
+.footer-cnt {
+	padding: 20px 30px;
+	margin: 14px;
+}
+
+.footer-cnt p {
+	max-width: 260px;
+	line-height: 20px;
+	margin-top: 10px;
+	font-weight: 200;
+	font-size: 14px;
+}
+
+.centerNavigation {
+	display: flex;
+	gap: clamp(10px, 2vw, 22px);
+}
+
+.footer-nav:hover {
+	color: #D88922;
+	transform: translateY(-2px);
+}
+
+.centerNavigation a {
+	text-decoration: none;
+	padding: 10px;
+	margin: 3px;
+	position: relative;
+	transition: color .3s ease;
+	color: #5f5f5f;
+	font-weight: 300;
+	display: inline-block;
+}
+
+.copyRight-cnt {
+	padding: 20px;
+	margin-right: 20px;
+	color: #5f5f5f;
+	font-weight: 300;
+}
+
+@media (max-width: 992px) {
+
+	footer {
+		flex-direction: column;
+		text-align: center;
+		padding: 35px 20px;
+	}
+
+	.footer-cnt,
+	.centerNavigation,
+	.copyRight-cnt {
+		width: 100%;
+	}
+
+	.footer-cnt p {
+		max-width: 500px;
+		margin: 12px auto 0;
+	}
+
+	.centerNavigation {
+		justify-content: center;
+		margin: 15px 0;
+	}
+
+	.copyRight-cnt {
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+
+	footer {
+		padding: 30px 18px;
+		gap: 25px;
+	}
+
+	.footer-cnt h1 {
+		font-size: 1.8rem;
+	}
+
+	.footer-cnt p {
+		font-size: 14px;
+		line-height: 1.6;
+	}
+
+	.centerNavigation {
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.centerNavigation a {
+		padding: 6px;
+		font-size: 15px;
+	}
+
+	.copyRight-cnt {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 480px) {
+
+	.footer-cnt h1 {
+		font-size: 1.5rem;
+	}
+
+	.footer-cnt p {
+		font-size: 13px;
+	}
+
+	.centerNavigation a {
+		font-size: 14px;
+	}
+
+	.copyRight-cnt {
+		font-size: 12px;
+	}
+}

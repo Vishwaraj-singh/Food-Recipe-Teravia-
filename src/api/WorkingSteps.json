@@ -1,0 +1,17 @@
+[
+	{
+		"icon": "FaSearch",
+		"title": "Search",
+		"discription": "Find recipes by name or ingredient with our powerful, instant search engine."
+	},
+	{
+		"icon": "BsForkKnife",
+		"title": "Discover",
+		"discription":"Browse through categories and beautiful visual cards to find the perfect dish."
+	},
+	{
+		"icon": "LuCookingPot",
+		"title": "Cook",
+		"discription": "Follow clear, step-by-step instructions to create a delicious meal for yourself or others."
+	}
+]
