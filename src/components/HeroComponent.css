@@ -32,6 +32,10 @@
 	text-align: center;
 	color: #fff;
 	animation: fadeUp 1s ease;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .heroContent h1 {
@@ -51,14 +55,13 @@
 }
 
 .heroText {
+	width: 600px;
 	margin: 0 0 42px;
-
-	font-family: "Cormorant Garamond", serif;
-
-	font-size: clamp(28px, 4vw, 42px);
-
-	font-weight: 200;
-
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 100;
+	font-style: normal;
+	font-size: clamp(23px, 4vw, 38px);
 	line-height: 1.2;
 
 	letter-spacing: 0.5px;
