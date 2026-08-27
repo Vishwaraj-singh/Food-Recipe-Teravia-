@@ -6,3 +6,8 @@
 .env.keys
 .env.local
 .env.*.local
+
+# Environment variables
+.env
+.env.*
+supabase/functions/.env
