@@ -18,10 +18,7 @@ export const Footer = () => {
 					Terms of Service
 				</NavLink>
 
-				<NavLink className="footer-nav" to="/policy">
-					Privacy Policy
-				</NavLink>
-
+	
 				<NavLink className="footer-nav" to="/contact">
 					Contact Us
 				</NavLink>
@@ -32,7 +29,7 @@ export const Footer = () => {
 			</div>
 
 			<div className="copyRight-cnt">
-				<p>© 2026 Recipe Finder. All rights reserved.</p>
+				<p>© 2026 Teravia. All rights reserved.</p>
 			</div>
 		</footer>
 	);

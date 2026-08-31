@@ -1,4 +1,5 @@
 import { NavLink, useNavigate } from "react-router-dom";
+import '../components/NotResultFound.css';
 
 export const NoRecipeFound = ({ recipeName }) => {
 	const navigate = useNavigate();

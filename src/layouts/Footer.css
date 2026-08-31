@@ -138,3 +138,51 @@ footer {
 		font-size: 12px;
 	}
 }
+@media (max-width: 360px) {
+
+	footer {
+		min-height: auto;
+		padding: 25px 12px;
+		gap: 18px;
+	}
+
+	.footer-cnt {
+		padding: 12px 10px;
+		margin: 5px;
+	}
+
+	.footer-cnt h1 {
+		font-size: 1.3rem;
+		margin-bottom: 8px;
+	}
+
+	.footer-cnt p {
+		max-width: 280px;
+		margin: 8px auto 0;
+
+		font-size: 11px;
+		line-height: 1.5;
+	}
+
+	.centerNavigation {
+		width: 100%;
+		gap: 6px;
+		margin: 5px 0;
+	}
+
+	.centerNavigation a {
+		padding: 5px;
+		margin: 0;
+
+		font-size: 12px;
+	}
+
+	.copyRight-cnt {
+		padding: 10px 5px;
+		margin: 0;
+
+		font-size: 10px;
+		line-height: 1.5;
+	}
+
+}

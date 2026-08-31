@@ -1,3 +1,4 @@
+// deno-lint-ignore-file
 import { NavLink } from "react-router"
 
 export const CategoryCard = ({ category }) => {

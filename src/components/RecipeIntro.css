@@ -134,3 +134,203 @@
 .intro-btn:active {
 	transform: translateY(-1px) scale(0.98);
 }
+
+
+@media (min-width: 1025px) {
+	.recipe-intro {
+		min-height: 280px;
+		padding: 90px 20px;
+	}
+
+	.intro-line {
+		gap: 20px;
+		margin-bottom: 28px;
+	}
+
+	.intro-line::before,
+	.intro-line::after {
+		width: 70px;
+	}
+
+	.intro-line small {
+		font-size: 13px;
+		letter-spacing: 4px;
+	}
+
+	.recipe-intro h2 {
+		font-size: clamp(2rem, 4vw, 3.2rem);
+		margin-bottom: 15px;
+	}
+
+	.recipe-intro p {
+		width: min(650px, 90%);
+		font-size: 14px;
+		line-height: 1.8;
+		margin-bottom: 25px;
+	}
+
+	.intro-btn {
+		padding: 11px 25px;
+		font-size: 11px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.recipe-intro {
+		min-height: 260px;
+		padding: 70px 30px;
+	}
+
+	.intro-line {
+		gap: 15px;
+		margin-bottom: 22px;
+	}
+
+	.intro-line::before,
+	.intro-line::after {
+		width: 55px;
+	}
+
+	.intro-line small {
+		font-size: 12px;
+		letter-spacing: 3px;
+	}
+
+	.recipe-intro h2 {
+		font-size: 2.5rem;
+		line-height: 1.2;
+		margin-bottom: 14px;
+	}
+
+	.recipe-intro p {
+		width: min(600px, 90%);
+		font-size: 13px;
+		line-height: 1.7;
+		margin-bottom: 22px;
+	}
+
+	.intro-btn {
+		padding: 10px 22px;
+		font-size: 11px;
+	}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.recipe-intro {
+		min-height: 240px;
+		padding: 60px 20px;
+	}
+
+	.intro-line {
+		gap: 12px;
+		margin-bottom: 20px;
+	}
+
+	.intro-line::before,
+	.intro-line::after {
+		width: 40px;
+	}
+
+	.intro-line small {
+		font-size: 10px;
+		letter-spacing: 2.5px;
+	}
+
+	.recipe-intro h2 {
+		font-size: 2rem;
+		line-height: 1.2;
+		margin-bottom: 12px;
+	}
+
+	.recipe-intro p {
+		width: 95%;
+		font-size: 12px;
+		line-height: 1.6;
+		margin-bottom: 20px;
+	}
+
+	.intro-btn {
+		padding: 9px 20px;
+		font-size: 10px;
+		letter-spacing: 1.2px;
+	}
+}
+
+@media (max-width: 480px) {
+	.recipe-intro {
+		min-height: 220px;
+		padding: 50px 15px;
+	}
+
+	.intro-line {
+		gap: 8px;
+		margin-bottom: 18px;
+	}
+
+	.intro-line::before,
+	.intro-line::after {
+		width: 28px;
+		height: 1px;
+	}
+
+	.intro-line small {
+		font-size: 9px;
+		letter-spacing: 2px;
+	}
+
+	.recipe-intro h2 {
+		font-size: 1.7rem;
+		line-height: 1.2;
+		letter-spacing: 0.3px;
+		margin-bottom: 10px;
+	}
+
+	.recipe-intro p {
+		width: 100%;
+		font-size: 11px;
+		line-height: 1.6;
+		margin-bottom: 18px;
+	}
+
+	.intro-btn {
+		padding: 8px 17px;
+		font-size: 9px;
+		letter-spacing: 1px;
+	}
+}
+
+@media (max-width: 360px) {
+	.recipe-intro {
+		padding: 45px 12px;
+	}
+
+	.intro-line {
+		gap: 6px;
+	}
+
+	.intro-line::before,
+	.intro-line::after {
+		width: 20px;
+	}
+
+	.intro-line small {
+		font-size: 8px;
+		letter-spacing: 1.5px;
+	}
+
+	.recipe-intro h2 {
+		font-size: 1.5rem;
+	}
+
+	.recipe-intro p {
+		font-size: 10px;
+		line-height: 1.5;
+	}
+
+	.intro-btn {
+		padding: 7px 15px;
+		font-size: 8px;
+	}
+}

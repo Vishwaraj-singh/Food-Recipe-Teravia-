@@ -3,6 +3,7 @@ import { LogoCnt } from "../components/LogoCnt";
 import { Hamburger } from "../components/Hamburger";
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router";
+import '../layouts/Header.css';
 
 
 
@@ -34,13 +35,10 @@ export const Header = () => {
 				</div>
 
 				<div >
-					<Navbar showMenu={showMenu} />
+					<Navbar showMenu={showMenu} setShowMenu= {setShowMenu} />
 				</div>
 
-				{/* <div className="left">
-					<Search />
-				</div> */}
-
+		
 				<Hamburger
 					setShowMenu={setShowMenu}
 					showMenu={showMenu} />

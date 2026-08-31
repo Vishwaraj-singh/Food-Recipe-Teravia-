@@ -1,3 +1,4 @@
+import { NavLink } from "react-router";
 import { CategoryCard } from "../components/CategoryCard";
 import { UseCategory } from "../hooks/UseCategory";
 import "../pages/Categories.css"
@@ -11,7 +12,9 @@ export const Categories = () => {
 
 	}
 	if (isError) {
-		return <h1>Something went wrong.</h1>
+		return <NavLink to="/ErrorPage">
+			Something went wrong
+		</NavLink>
 	}
 	return (
 		<>

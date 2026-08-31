@@ -8,7 +8,6 @@ import { Home } from "./pages/Home"
 import { About } from "./pages/About"
 import { Contact } from "./pages/Contact"
 import { TermsOfServices } from "./pages/TermsOfServices"
-import { Policy } from "./pages/Policy"
 import { SearchItem } from "./pages/SearchItem"
 import { CategoryItem } from "./pages/CategoryItem"
 
@@ -42,10 +41,7 @@ const App = () => {
         path: "/recipe/:id",
         element: <RecipeDetails />
       },
-      {
-        path: "/policy",
-        element: <Policy />
-      },
+     
       {
         path: "/termsOfServices",
         element: <TermsOfServices />

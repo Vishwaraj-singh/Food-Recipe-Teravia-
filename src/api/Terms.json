@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"heading": "Acceptance of Terms",
+		"discription": "By accessing and using Teravia, you agree to follow these Terms & Services. If you do not agree with any part of these terms, please discontinue use of the website."
+	},
+	{
+		"id": 2,
+		"heading": "Use of Our Website",
+		"discription": "Teravia provides recipes, cooking inspiration, and food-related information for personal and non-commercial use."
+	},
+	{
+		"id": 3,
+		"heading": "Recipe Information",
+		"discription": "Recipes and cooking information available on Teravia are provided for general informational and educational purposes. Ingredients, measurements, preparation times, and instructions may vary depending on ingredients, equipment, and individual cooking conditions."
+	},
+	{
+		"id": 4,
+		"heading": "User Responsibilities",
+		"discription": "Users are responsible for how they use the information provided by Teravia. Please consider your own dietary needs allergies, and food safety requirements before preparing any recipe."
+	},
+	{
+		"id": 5,
+		"heading": "Intellectual Property",
+		"discription": "The Teravia name, branding, website design, and original content are protected by applicable intellectual property laws. Content should not be copied, reproduced, or redistributed without appropriate permission."
+	},
+	{
+		"id": 6,
+		"heading": "Third-Party Content",
+		"discription": "Teravia may display information, links, or content provided by third-party services. We are not responsible for the availability or accuracy of external websites."
+	},
+	{
+		"id": 7,
+		"heading": "Changes to These Terms",
+		"discription": "We may update these Terms & Services from time to time to reflect changes to our website or services. Continued use of Teravia after changes are published means that you accept the updated terms."
+	},
+	{
+		"id": 8,
+		"heading": "Contact Us",
+		"discription": "If you have questions about these terms or how Teravia operates, we'd love to hear from you."
+	}
+]

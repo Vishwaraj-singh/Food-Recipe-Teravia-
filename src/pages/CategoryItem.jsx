@@ -1,4 +1,4 @@
-import { useParams } from "react-router"
+import { NavLink, useParams } from "react-router"
 import { UseFilterCategory } from "../hooks/UseFilterCategory"
 import { RecipeCard } from "../components/RecipeCard"
 import { NoRecipeFound } from "../components/NotResultFound"
@@ -15,7 +15,9 @@ export const CategoryItem = () => {
 		</div>;
 	}
 	if (isError) {
-		return <h1>Something went wrong.</h1>
+		return <NavLink to="/ErrorPage">
+			Something went wrong
+		</NavLink>
 	}
 	if (data?.length === 0) {
 		return <NoRecipeFound recipeName={categoryName} />

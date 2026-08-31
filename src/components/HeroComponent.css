@@ -275,6 +275,77 @@
 	.heroSearch button {
 		font-size: 15px;
 	}
+	.heroText{
+		width: 300px;
+	}
 
+}
+@media (max-width: 360px) {
 
+	.hero {
+		height: 58vh;
+		min-height: 430px;
+	}
+
+	.heroImg {
+		height: 58vh;
+		min-height: 430px;
+	}
+
+	.heroOverlay {
+		padding: 15px 12px;
+	}
+
+	.heroContent {
+		width: 100%;
+		max-width: 320px;
+	}
+
+	.heroContent h1 {
+		font-size: 1.7rem;
+		line-height: 1.15;
+		letter-spacing: 0.5px;
+		margin-bottom: 14px;
+	}
+
+	.heroText {
+		width: 100%;
+		margin-bottom: 25px;
+
+		font-size: 0.9rem;
+		line-height: 1.5;
+		letter-spacing: 0.2px;
+	}
+
+	.heroSearch {
+		width: 100%;
+		max-width: 300px;
+
+		padding: 8px;
+		gap: 8px;
+
+		border-radius: 15px;
+	}
+
+	.heroSearch input {
+		width: 100%;
+		padding: 12px 8px;
+		font-size: 14px;
+	}
+
+	.heroSearch input::placeholder {
+		font-size: 13px;
+	}
+
+	.heroSearch button {
+		width: 100%;
+		padding: 12px;
+
+		font-size: 13px;
+		border-radius: 14px;
+	}
+
+	#searchIcon {
+		display: none;
+	}
 }
