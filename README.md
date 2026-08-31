@@ -1,16 +1,107 @@
-# React + Vite
+# 🍽️ Teravia — Food Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Discover delicious recipes, explore different cuisines, and find your next favorite meal with Teravia.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 **[Visit Teravia Live](https://teravia-one.vercel.app/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📖 About The Project
 
-## Expanding the ESLint configuration
+**Teravia** is a modern food recipe finder website designed to make discovering recipes simple, beautiful, and enjoyable.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Users can explore recipes, browse food categories, search for specific recipes, and view detailed recipe information through a clean and responsive interface.
+
+The project was built using **React.js** with a focus on responsive design, reusable components, and a smooth user experience.
+
+---
+
+## ✨ Features
+
+- 🏠 **Home Page** — Beautiful landing page with featured recipes
+- 🔍 **Recipe Search** — Search for recipes easily
+- 🍕 **Categories** — Explore recipes based on food categories
+- 📖 **Recipe Details** — View detailed recipe information
+- 📱 **Responsive Design** — Works on desktop, tablet, and mobile
+- ☰ **Responsive Navbar** — Mobile-friendly hamburger navigation
+- 📩 **Contact Form** — Users can send messages through the contact page
+- 📜 **Terms & Services** — Dedicated terms and services page
+- 🔒 **Privacy Policy** — Policy information for users
+- ❌ **Error Page** — Custom page for invalid routes
+- ⚡ **Fast Performance** — Built with Vite
+- 🎨 **Modern UI** — Dark theme with an elegant food-inspired design
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- React Router
+- React Icons
+
+### Backend / Services
+
+- Supabase
+- Supabase Edge Functions
+- Gmail SMTP
+
+### Deployment
+
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```text
+recipe-finder/
+│
+├── public/
+│
+├── src/
+│   ├── api/
+│   │   └── Terms.json
+│   │
+│   ├── components/
+│   │   ├── CategoryCard.jsx
+│   │   ├── Hamburger.jsx
+│   │   ├── HeroComponent.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── NotResultFound.jsx
+│   │   └── RecipeCard.jsx
+│   │
+│   ├── layouts/
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   └── ...
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Categories.jsx
+│   │   ├── CategoryItem.jsx
+│   │   ├── About.jsx
+│   │   ├── Contact.jsx
+│   │   ├── ErrorPage.jsx
+│   │   ├── TermsOfServices.jsx
+│   │   └── ...
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── supabase/
+│   └── functions/
+│       └── send-contact-email/
+│
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
